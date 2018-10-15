@@ -1,0 +1,9 @@
+services:
+  web:
+    build:
+      context: .
+    container_name: tictaktoe
+    environment:
+      - PORT=3005
+    ports:
+      - 8080:3005
